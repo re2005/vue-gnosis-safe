@@ -1,0 +1,12 @@
+{
+    "background_color": "#fff",
+    "display": "standalone",
+    "homepage_url": "",
+    "providedBy": { "name": "Vue gnosis-safe", "url": "" },
+    "orientation": "portrait",
+    "name": "Vue gnosis-safe",
+    "short_name": "vue-gnosis-safe",
+    "description": "vue-gnosis-safe",
+    "start_url": ".",
+    "theme_color": "#ff007a"
+}
