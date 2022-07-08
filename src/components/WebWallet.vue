@@ -20,17 +20,17 @@
     const infuraId = '';
 
     const chain = {
-        order: 1,
-        chainId: 5,
+        network: 'mainnet',
+        id: 5,
         name: 'Gnosis safe',
         color: '#5FA5F3',
         networkUrl: 'string',
         explorerUrl: 'https://goerli.etherscan.io/',
-        rpcUrls: ['https://cloudflare-eth.com'],
+        rpcUrls: { default: 'https://cloudflare-eth.com' },
     };
 
     const connectors = [
-        new SafeConnector({}),
+        new SafeConnector({ chains: [chain] }),
         new MetaMaskConnector({
             appUrl: 'http://localhost:3000',
         }),

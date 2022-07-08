@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@gnosis.pm/safe-apps-wagmi": "^1.0.1",
+    "@wagmi/core": "^0.3.8",
     "ethers": "^5.6.9",
     "vue": "^3.2.25",
     "vue-dapp": "^0.5.3"
